@@ -1,0 +1,33 @@
+name: Compile journal entry
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - uses: typst-community/setup-typst@v4
+      
+      - name: Compile Typst files in all directories
+        run: |
+          for dir in */; do
+            if [ -d "$dir" ]; then
+              echo "Processing directory: $dir"
+              cd "$dir"
+              typst compile --font-path ../fonts *.typ
+              cd ..
+            fi
+          done
+      
+      - name: Commit updated PDFs
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add "*.pdf"
+          git commit -m "chore: update compiled PDFs" -a || exit 0
+          git push

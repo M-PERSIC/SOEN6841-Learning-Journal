@@ -1,5 +1,5 @@
 #set text(size: 12pt)
-#set text(font: "Cantarell")
+#set text(font: "Carlito")
 
 #set par(leading: 0.8em) // 1.5 line spacing
 
