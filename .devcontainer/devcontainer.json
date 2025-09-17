@@ -1,0 +1,11 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "myriad-dreamin.tinymist",
+                "tomoki1207.pdf"
+            ]
+        }
+    }
+}
