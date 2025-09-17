@@ -7,7 +7,7 @@
 
 *Course:* Software Project Management (SOEN6841)
 
-*Journal URL:* 
+*Journal URL:* #link("https://drive.google.com/drive/folders/1Cm1A6z7RdqE0UbC5240zwVyqyKuaR5-L?usp=sharing")[https://drive.google.com/drive/folders/1Cm1A6z7RdqE0UbC5240zwVyqyKuaR5-L?usp=sharing]
 
 *Dates Range of Activities:* September 08, 2025 - September 17, 2025
 
@@ -34,3 +34,5 @@
   
   [My immediate focus for next week is to complete the topic analysis. Due to my current schedule, I have significantly less time to work on it, and therefore must prioritize my efforts and put my coordination skills to the test with my teammate in order to see it to completion. Following the topic analysis, I will focus on removing any lapses in understanding from the lessons of these first two weeks, as well as prepare for the next topics covered. I hope to be able to rethink my studying strategies in order to determine any inefficiencies and improve accordingly so that I can create more breathing room in my schedule overall. As I am submitting this learning journal entry early, I hope to better schedule my submissions the next time around in spite of full-time work and thus not cut my updates short.],
 )
+
+*Note*: I used Carlito font as a metric-compatible open-source alternative to Calibri due to licensing limitations on my system.
