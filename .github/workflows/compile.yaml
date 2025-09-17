@@ -16,7 +16,7 @@ jobs:
       - name: Compile Typst files in all directories
         run: |
           for dir in */; do
-            if [ -d "$dir" ]; then
+            if [ -d "$dir" ] && [[ "$dir" != "fonts/" ]] && [[ "$dir" != ".devcontainer/" ]] && [[ "$dir" != ".github/" ]]; then
               echo "Processing directory: $dir"
               cd "$dir"
               typst compile --font-path ../fonts *.typ
@@ -29,5 +29,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add "*.pdf"
-          git commit -m "chore: update compiled PDFs" -a || exit 0
+          git commit -m "Update compiled PDFs" -a || exit 0
           git push
