@@ -9,6 +9,8 @@
 
 *Journal URL:* #link("https://drive.google.com/drive/folders/1Cm1A6z7RdqE0UbC5240zwVyqyKuaR5-L?usp=sharing")[https://drive.google.com/drive/folders/1Cm1A6z7RdqE0UbC5240zwVyqyKuaR5-L?usp=sharing]
 
+*Repository URL:* #link("https://github.com/M-PERSIC/SOEN6841-Learning-Journal.git")[https://github.com/M-PERSIC/SOEN6841-Learning-Journal.git]
+
 *Dates Range of Activities:* September 08, 2025 - September 17, 2025
 
 *Date of the journal:* #datetime.today().display("[month repr:long] [day], [year]")
