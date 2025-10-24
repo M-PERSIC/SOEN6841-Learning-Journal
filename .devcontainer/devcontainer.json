@@ -1,10 +1,13 @@
 {
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {}
+    },
     "customizations": {
         "vscode": {
             "extensions": [
-                "myriad-dreamin.tinymist",
-                "tomoki1207.pdf"
+                "myriad-dreamin.tinymist"
             ]
         }
-    }
+    },
+    "onCreateCommand": "cargo install --locked typst-cli"
 }
